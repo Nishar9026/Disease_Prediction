@@ -1,0 +1,24 @@
+{% extends "parent.html" %}
+{% block body %}
+  <h2 style="color: rgb(53, 53, 89); text-align: center; font-family: 'Times New Roman', Times, serif;">Disease Prediction</h2>
+  {% if res %}
+    <h4 style="color: red; text-align: center;">Predicted Disease :{{res}}</h4>
+  {% endif %}
+  <form class="form-group" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <table class="table table-bordered" style="width: 50%; margin: auto;">
+      <tr>
+        <td>Select report file</td>
+        <td>
+          <input type="file" name="csv_file" class="form-control" required/>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <button type="submit" class="btn btn-success">Predict</button>
+        </td>
+      </tr>
+    </table>
+  </form>
+{% endblock body %}
