@@ -64,7 +64,7 @@ Disease-Prediction-System/
 ---
 
 ## 📷 Screenshots
-(Add your project screenshots here)
+Screenshot 2026-03-25 152824.png
 
 ---
 
