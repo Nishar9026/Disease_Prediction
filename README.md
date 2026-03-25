@@ -64,7 +64,7 @@ Disease-Prediction-System/
 ---
 
 ## 📷 Screenshots
-Screenshot 2026-03-25 152824.png
+![Disease Prediction System](./Screenshot%202026-03-25%20152824.png)
 
 ---
 
